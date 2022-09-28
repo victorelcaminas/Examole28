@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Example28 {
-    public static void main(String [] args){
+    public static void main(String [] args) {
         int num1, num2, i;
         int addition = 0;
 
@@ -14,7 +14,7 @@ public class Example28 {
         System.out.println("Enter second number: ");
         num2 = inputValue.nextInt();
 
-        for (i = 1; i <= num2; i++){
+        for (i = 1; i <= num2; i++) {
             addition = addition + num1;
         }
         System.out.println(addition);
